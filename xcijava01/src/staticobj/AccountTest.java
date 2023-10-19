@@ -1,7 +1,8 @@
-package oop6;
+package staticobj;
 
 public class AccountTest {
     public static void main(String[] args) {
+        System.out.println(Account.money2);
         Account a1 = new Account(10000);
         System.out.println(a1);
         Account a2 = new Account(10000);

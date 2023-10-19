@@ -1,4 +1,4 @@
-package oop7;
+package singleton;
 
 public class SingletonTest {
     public static void main(String[] args) {

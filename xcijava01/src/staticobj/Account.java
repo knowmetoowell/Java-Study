@@ -1,4 +1,4 @@
-package oop6;
+package staticobj;
 
 public class Account {
     int money1;
