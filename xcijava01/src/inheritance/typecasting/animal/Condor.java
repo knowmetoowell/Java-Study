@@ -1,4 +1,4 @@
-package oop3;
+package inheritance.typecasting.animal;
 
 public class Condor extends Bird{
     @Override

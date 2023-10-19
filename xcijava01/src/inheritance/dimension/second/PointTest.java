@@ -1,4 +1,4 @@
-package oop2;
+package inheritance.dimension.second;
 
 public class PointTest {
     public static void main(String[] args) {

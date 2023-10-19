@@ -1,4 +1,4 @@
-package oop1;
+package inheritance.dimension.first;
 
 public abstract class Point2D {
     private int x;

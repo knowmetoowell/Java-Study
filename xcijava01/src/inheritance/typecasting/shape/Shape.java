@@ -1,4 +1,4 @@
-package oop4;
+package inheritance.typecasting.shape;
 
 public class Shape {
     double res;

@@ -1,4 +1,4 @@
-package oop4;
+package inheritance.typecasting.shape;
 
 public class Triangle extends Shape {
     int w = 10;

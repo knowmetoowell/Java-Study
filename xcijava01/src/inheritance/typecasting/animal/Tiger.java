@@ -1,4 +1,4 @@
-package oop3;
+package inheritance.typecasting.animal;
 
 public class Tiger extends Cat{
     @Override

@@ -1,4 +1,4 @@
-package oop1;
+package inheritance.dimension.first;
 
 public class Point3D extends Point2D {
     private int z;

@@ -1,4 +1,4 @@
-package oop5;
+package inheritance.dimension.third;
 
 import exam.lib.Dice;
 

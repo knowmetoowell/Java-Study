@@ -1,4 +1,4 @@
-package oop3;
+package inheritance.typecasting.animal;
 
 public class BlackVulture extends Condor {
     @Override

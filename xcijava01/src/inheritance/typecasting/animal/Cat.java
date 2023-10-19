@@ -1,4 +1,4 @@
-package oop3;
+package inheritance.typecasting.animal;
 
 public class Cat extends Animal {
     @Override
