@@ -1,6 +1,6 @@
 package thread;
 
-class SMFileThread extends Thread {
+class SMIFileThread extends Thread {
     @Override
     public void run() {
         String[] strArray = {"하나", "둘", "셋", "넷", "다섯"};
@@ -43,7 +43,7 @@ class VideoFileThread extends Thread {
 
 public class VideoSubtitlesSystem {
     public static void main(String[] args) {
-        Thread th = new SMFileThread();
+        Thread th = new SMIFileThread();
         th.start();
 
         Thread th2 = new VideoFileThread();
