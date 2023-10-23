@@ -19,7 +19,7 @@ public class ThreadPriority {
         System.out.println("코어 수: " + Runtime.getRuntime().availableProcessors());
 
         for (int i = 0; i < 3; i++) {
-            Thread thread = new MyThread();
+            Thread thread = new MyThread3();
             thread.start();
 
         }
@@ -29,7 +29,7 @@ public class ThreadPriority {
             throw new RuntimeException(e.getMessage());
         }
         for (int i = 0; i < 10; i++) {
-            Thread thread = new MyThread();
+            Thread thread = new MyThread3();
             thread.setName(i + "번째 쓰레드");
 
             if (i == 9) {
