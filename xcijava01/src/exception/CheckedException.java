@@ -1,14 +1,14 @@
 package exception;
 
-import builder.Human;
-
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-
 public class CheckedException {
     public static void main(String[] args) {
-//        Thread.sleep(1000);
+
+
+        try {
+            Thread.sleep(1000);
+        } catch (Exception e) {
+            throw new MyInterruptedException(e);
+        }
 //
 //        Class cls = Class.forName("java.lang.Object");
 //
