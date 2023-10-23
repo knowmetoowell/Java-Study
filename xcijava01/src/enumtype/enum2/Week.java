@@ -1,4 +1,4 @@
-package enum2;
+package enumtype.enum2;
 
 public enum Week {
 	일,

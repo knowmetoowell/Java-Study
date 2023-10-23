@@ -1,4 +1,4 @@
-package enum3;
+package enumtype.enum3;
 
 public enum Week {
 	SUNDAY("일"),

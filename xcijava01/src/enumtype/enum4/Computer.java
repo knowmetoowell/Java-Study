@@ -1,4 +1,4 @@
-package enum4;
+package enumtype.enum4;
 
 public class Computer extends ElectricDevice {
 	public PowerState powerState = PowerState.OFF;

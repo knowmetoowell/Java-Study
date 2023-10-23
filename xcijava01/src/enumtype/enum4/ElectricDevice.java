@@ -1,4 +1,4 @@
-package enum4;
+package enumtype.enum4;
 
 public abstract class ElectricDevice {
 	public abstract void turnOn();

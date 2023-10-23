@@ -1,4 +1,4 @@
-package enum4;
+package enumtype.enum4;
 
 public enum PowerState {
 	OFF("전원이 꺼졌습니다."),

@@ -1,4 +1,4 @@
-package enum3;
+package enumtype.enum3;
 
 import java.util.Calendar;
 

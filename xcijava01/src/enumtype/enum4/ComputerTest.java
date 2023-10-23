@@ -1,4 +1,4 @@
-package enum4;
+package enumtype.enum4;
 
 public class ComputerTest {
 	public static void main(String[] args) {
