@@ -1,4 +1,4 @@
-package fileIO;
+package CodingTestPrac;
 
 /**
  * 튜플
@@ -57,18 +57,21 @@ public class Tuple {
         int[] answer = new int[aLen];
         boolean[] right = new boolean[aLen];
 
+
+        String[] longStr;
         for (int i = 0; i < a.length; i++) {
-            String[] b = a[i].split(",");
-            int bLen = b.length;
-            answer[bLen - 1] = Integer.parseInt(b[0]);
-            if (b.length != 1) {
-
-            } else {
-
+            if (a[i].length() == a.length * 2 - 1) {
+                longStr = a[i].split(",");
+                break;
             }
-
-
         }
+
+
+
+        for (int i = 1; i < a.length*2-1; i +=2) {
+            a[i/2]
+        }
+
 
 
         return answer;
