@@ -68,9 +68,7 @@ public class Tuple {
 
 
 
-        for (int i = 1; i < a.length*2-1; i +=2) {
-            a[i/2]
-        }
+
 
 
 
