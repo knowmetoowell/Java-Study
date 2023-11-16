@@ -1,6 +1,8 @@
-package com.example.xciweb01;
+package basic;
 
 import java.io.*;
+
+import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
@@ -8,9 +10,15 @@ import jakarta.servlet.annotation.*;
 public class HelloServlet extends HttpServlet {
     private String message;
 
-    public void init() {
-        message = "Hello World!";
+    public HelloServlet() {
+        System.out.println("HelloServlet2.HelloServlet2");
     }
+
+    @Override
+    public void init() throws ServletException {
+        System.out.println("HelloServlet2.init");
+    }
+
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");

@@ -1,9 +1,13 @@
-package com.example.xciweb01.basic;
+package basic;
 
+import java.util.Arrays;
 import java.util.Calendar;
 
 public class Cal {
     public static void main(String[] args) {
+//        String[] hobbies = {"zz", "efeq"};
+//        Arrays.stream(hobbies).forEach(h -> System.out.println("h = " + h));
+
         Calendar c = Calendar.getInstance();
         int year = c.get(Calendar.YEAR);
         int month = c.get(Calendar.MONTH) +1;
