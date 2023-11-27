@@ -1,0 +1,21 @@
+{
+  "terminal.integrated.env.windows": {
+    "NODEJS_HOME": "C:\\Program Files\\nodejs",
+    "NODE_PATH": "C:\\dev\\edu\\LABS_REACT\\node_modules\\",
+    "PATH": "C:\\Program Files\\nodejs;${env:PATH};"
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "code-runner.runInTerminal": true,
+  "liveServer.settings.host": "localhost",
+  "liveServer.settings.port": 80,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 120,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.bracketSpacing": true
+}

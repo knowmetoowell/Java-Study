@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 기본 선택자 */
+        .class01 {
+            background-color: silver;
+        }
+        #fruit{
+            background-color: transparent;
+        }
+
+        /* 복합 선택자 */
+        ul li { /*자손*/
+            color: blue;
+        } 
+        ul > li { /*자식*/
+            background-color: pink;
+        }
+        li#기준 ~ li { /*바로 뒤의 형제들*/
+            color: plum;
+        }
+        li#기준 + li { /*바로 뒤의 형제*/
+            color: green;
+        }
+
+        /*속성 선택자*/
+        li[title] { /* 속성 존재 여부 */
+            color: orange;
+        }
+        li[title="할인"] { /* 속성값이 같다면 */
+            color: red;
+        }
+        li[title~="무료배송"]::after { /* 공백 기준으로 ~가 포함 된다면 */
+            content: " [무료배송]"; 
+        }
+        li[title$="품절"]{ /* 속성 값이 ~로 끝난다면 */
+            color: gray;
+        }
+        li[title^="hot"] { /* ~로 시작된다면 */
+            color: red;
+            font-weight: bold;
+        }
+        li[title*="무료"]{ /* ~가 포함된다면 */
+            text-decoration: underline;
+        }
+
+
+        li[title~="할인"][title~="무료배송"]{ /* and 조건 */
+            color: black;
+        }
+        li[title~="할인"],li[title~="무료배송"]{ /* or 조건 */
+            color: black;
+        }
+
+
+        /* 가상 선택자 */
+        #fruit > ol > li:nth-child(2n) { /* 2의 배수들 */
+            background-color: lime;
+        }
+        #fruit > ol > li:hover{ /* 마우스를 올리면 */
+            text-decoration: underline;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <ul>
+        <li>요소1</li>
+        <li class="class01">요소2</li>
+        <li class="class01" id="기준">요소3</li>
+        <li>요소4</li>
+        <li id="fruit">요소5
+            <ol>
+                <li title="">사과</li>
+                <li title="할인">배</li>
+                <li title="할인 무료배송">바나나</li>
+                <li title="무료배송 품절">수박</li>
+                <li title="hot 무료배송">복숭아</li>
+                <li><a href="#" target="_brank" data-url="">외부 쇼핑</li>
+            </ol>
+        </li>
+        <li>요소6</li>
+    </ul>
+    <h1>Header</h1>
+    <script>
+        // $('li[title$="품절"]').on('click', function() {
+        //     alert('품절입니다.');
+        // })
+
+        document.querySelector('li[title$="품절"]').addEventListener('click', function(){
+            alert('품절입니다.');
+        })
+
+        // $('h1').on('click', function(){
+        //     $('body').append('<h1>Header</h1>');
+        // })
+
+        document.querySelector('h1').addEventListener('click', function(){
+            document.querySelector('body').appendChild(document.createElement('h1')).textContent='Header';
+        })
+    </script>
+</body>
+</html>
