@@ -10,7 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8ecf6f1-6803-437c-92ab-de9c9fe988a1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../spring01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/article/dao/ArticleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/article/dao/ArticleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dispatcher-servlet.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dispatcher-servlet.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/dev/edu/spring01",
+    "last_opened_file_path": "C:/dev/edu/xciweb01/src/main/webapp/WEB-INF/article",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,11 +83,11 @@
       <recent name="mvc.fx" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\edu\xciweb01\src\main\webapp\WEB-INF\article" />
       <recent name="C:\dev\edu\xciweb01\src\main\webapp\WEB-INF\lib" />
       <recent name="C:\dev\edu\xciweb01\src\main\java" />
       <recent name="C:\dev\edu\xciweb01\src\main\webapp\WEB-INF\pilot" />
       <recent name="C:\dev\edu\xciweb01\src\main\webapp" />
-      <recent name="C:\dev\edu\xciweb01\src\main\webapp\parameter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\edu\xciweb01\src\main\java" />
@@ -284,6 +290,7 @@
       <workItem from="1701045151538" duration="1429000" />
       <workItem from="1701052814263" duration="588000" />
       <workItem from="1701053414991" duration="37000" />
+      <workItem from="1701063276835" duration="3726000" />
     </task>
     <servers />
   </component>

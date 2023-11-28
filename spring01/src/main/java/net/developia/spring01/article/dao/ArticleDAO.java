@@ -1,7 +1,8 @@
-package article.dao;
+package net.developia.spring01.article.dao;
 
-import article.dto.ArticleDTO;
+
 import lombok.extern.java.Log;
+import net.developia.spring01.article.dto.ArticleDTO;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -26,14 +27,7 @@ public class ArticleDAO {
 
     public void insertArticle(ArticleDTO articleDTO) throws SQLException {
 
-        String sql = """
-                
-                insert into article(no, title, name, content, password)
-                values (seq_article.nextval,?,?,?,?)
-
-                """;
-
-
+        String sql ="insert into article(no, title, name, content, password) values (seq_article.nextval,?,?,?,?)";
 
         try (Connection conn = getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
@@ -55,13 +49,7 @@ public class ArticleDAO {
 
     public List<ArticleDTO> getArticleList() {
 
-        String sql = """
-                
-                select no,title,name,regdate,readcount 
-                from article
-                order by no desc
-
-                """;
+        String sql = "select no,title,name,regdate,readcount from article order by no desc";
 
         List<ArticleDTO> list = new ArrayList<>();
         try (Connection conn = getConnection();
@@ -83,35 +71,32 @@ public class ArticleDAO {
         }
         return list;
     }
+    public ArticleDTO getDetail(Long no) throws SQLException {
 
-    public List<ArticleDTO> getArticleDetail() {
+        String sql = "select no,title,name,regdate,content,readcount from article where no = ? order by no desc";
+        ArticleDTO dto = null;
 
-        String sql = """
-                
-                select title,name,regdate, content,readcount 
-                from article
-                order by no desc
-
-                """;
-
-        List<ArticleDTO> list = new ArrayList<>();
         try (Connection conn = getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql);
-             ResultSet rs = pstmt.executeQuery()) {
-            while (rs.next()) {
-                ArticleDTO dto = new ArticleDTO();
-                dto.setTitle(rs.getString("title"));
-                dto.setName(rs.getString("name"));
-                dto.setRegdate(rs.getDate("regdate"));
-                dto.setName(rs.getString("content"));
-                dto.setReadcount(rs.getInt("readcount"));
+             ) {
+            pstmt.setLong(1, no);
+            try(ResultSet rs = pstmt.executeQuery();) {
+                if (rs.next()) {
+                    dto = new ArticleDTO();
+                    dto.setNo(rs.getLong("no"));
+                    dto.setTitle(rs.getString("title"));
+                    dto.setName(rs.getString("name"));
+                    dto.setRegdate(rs.getDate("regdate"));
+                    dto.setContent(rs.getString("content"));
+                    dto.setReadcount(rs.getInt("readcount"));
+                }
 
-                list.add(dto);
             }
-            return list;
+            return dto;
         } catch (Exception e) {
             log.info(e.getMessage());
+            throw e;
         }
-        return list;
+
     }
 }
