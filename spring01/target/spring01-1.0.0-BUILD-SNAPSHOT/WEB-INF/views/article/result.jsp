@@ -1,19 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: sangwon
-  Date: 2023-11-15
-  Time: 오후 4:32
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 </head>
 <body>
 <script type="text/javascript">
-    alert('${msg}');
-    location.href='${url}'
+alert('${msg}');
+location.href='${url}';
 </script>
 </body>
 </html>
