@@ -1,292 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="spirng03:war exploded" />
-    </artifacts-to-build>
-  </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="7fdde23a-3e5d-4351-aff4-f82cc3b9c265" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201e/FileOutputter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201e/FileOutputterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201e/MessageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201e/MessageBeanImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201e/MessageBeanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202/HarmanSpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202/MarshallSpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202/SamsungTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202/TVUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202e/FileOutputter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202e/FileOutputterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202e/MessageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202e/MessageBeanImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di202e/MessageBeanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di301/BeanInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di301/HarmanSpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di301/MarshallSpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di301/SamsungTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di301/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di301/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di301/TVUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di302/BeanInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di302/HarmanSpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di302/MarshallSpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di302/SamsungTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di302/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di302/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di302/TVUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/resources/di201e/app.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/resources/di202/beaninit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring01/src/main/resources/di202e/app.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.settings/org.springframework.ide.eclipse.beans.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.settings/org.springframework.ide.eclipse.beans.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.settings/org.springframework.ide.eclipse.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.settings/org.springframework.ide.eclipse.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.springBeans" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.springBeans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/outputter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/outputter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/outputter2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/outputter2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/SpringMVC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/SpringMVC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/controller/ArticleDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/controller/ArticleDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/controller/ArticleInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/controller/ArticleInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/controller/ArticleInsertAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/controller/ArticleInsertAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/controller/ArticleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/controller/ArticleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/dao/ArticleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/dao/ArticleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/dto/ArticleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/dto/ArticleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/article/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101/HarmanSpeaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101/HarmanSpeaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101/SamsungTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101/SamsungTV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101/Speaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101/TV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101/TVUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101/TVUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101e/FileOutputter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101e/FileOutputter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101e/FileOutputterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101e/FileOutputterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101e/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101e/MessageBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101e/MessageBeanImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101e/MessageBeanImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101e/MessageBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di101e/MessageBeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102/HarmanSpeaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102/HarmanSpeaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102/SamsungTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102/SamsungTV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102/Speaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102/TV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102/TVUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102/TVUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102e/FileOutputter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102e/FileOutputter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102e/FileOutputterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102e/FileOutputterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102e/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102e/MessageBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102e/MessageBeanImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102e/MessageBeanImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102e/MessageBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di102e/MessageBeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201/HarmanSpeaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201/HarmanSpeaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201/SamsungTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201/SamsungTV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201/Speaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201/TV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201/TVUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/java/net/developia/spring01/di201/TVUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/resources/di101/beaninit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/resources/di101/beaninit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/resources/di101e/beaninit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/resources/di101e/beaninit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/resources/di102/beaninit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/resources/di102/beaninit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/resources/di102e/beaninit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/resources/di102e/beaninit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/resources/di201/beaninit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/resources/di201/beaninit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/article/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/article/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/article/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/article/insert.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/article/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/article/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/article/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/article/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/main/webapp/resources/css/article_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/main/webapp/resources/css/article_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/src/test/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/src/test/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/classes/di101/beaninit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/classes/di101/beaninit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/classes/di101e/beaninit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/classes/di101e/beaninit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/classes/di102/beaninit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/classes/di102/beaninit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/classes/di102e/beaninit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/classes/di102e/beaninit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/classes/di201/beaninit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/classes/di201/beaninit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/classes/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/m2e-wtp/web-resources/META-INF/maven/met.developia/spring01/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/m2e-wtp/web-resources/META-INF/maven/met.developia/spring01/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/article/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/article/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/article/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/article/insert.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/article/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/article/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/article/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/article/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/detatil_icon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/resources/css/article_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/spring01-1.0.0-BUILD-SNAPSHOT/resources/css/article_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/target/test-classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/target/test-classes/log4j.xml" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2YpSrvVoTx6jQVE3CtgNq3esyq0" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/dev/edu/edu/spring03/src/main/resources/net/developia/spring03/mapper",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\edu\edu\spring03\src\main\resources\net\developia\spring03\mapper" />
-      <recent name="C:\dev\edu\edu\spring03\src\main\resources" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.BoardMapperTests.testUpdate">
-    <configuration name="BoardMapperTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.developia.spring03.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
-      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.BoardMapperTests" />
-      <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardMapperTests.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.developia.spring03.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
-      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.BoardMapperTests" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardMapperTests.testInsertSelectKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.developia.spring03.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
-      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.BoardMapperTests" />
-      <option name="METHOD_NAME" value="testInsertSelectKey" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardMapperTests.testRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.developia.spring03.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
-      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.BoardMapperTests" />
-      <option name="METHOD_NAME" value="testRead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardMapperTests.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.developia.spring03.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
-      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.BoardMapperTests" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="spring03" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 9.0.83" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.83" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="spirng03:war exploded">
+        <artifact name="spring03:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="b8e6ba6d-1545-42e1-8e91-ca7be872fe52" />
+        <option name="BASE_DIRECTORY_NAME" value="33e9e22d-75a9-48b1-990e-8e5af43d1791" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -294,7 +22,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52766" />
+        <option name="DEBUG_PORT" value="56584" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -359,37 +87,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="spring01:war exploded" />
-          <artifact name="spirng03:war exploded" />
+          <artifact name="spring03:war exploded" />
         </option>
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.BoardMapperTests.testUpdate" />
-        <item itemvalue="JUnit.BoardMapperTests.testDelete" />
-        <item itemvalue="JUnit.BoardMapperTests.testInsertSelectKey" />
-        <item itemvalue="JUnit.BoardMapperTests.testInsert" />
-        <item itemvalue="JUnit.BoardMapperTests.testRead" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="7fdde23a-3e5d-4351-aff4-f82cc3b9c265" name="Changes" comment="" />
-      <created>1701221230074</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1701221230074</updated>
-      <workItem from="1701221231111" duration="2916000" />
-      <workItem from="1701310889816" duration="696000" />
-      <workItem from="1701311880942" duration="55000" />
-      <workItem from="1701311948017" duration="5753000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
