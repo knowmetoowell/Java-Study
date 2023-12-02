@@ -2,10 +2,6 @@ package net.developia.spring03.service;
 
 
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.fail;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.log;
-
-import java.util.List;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -28,7 +24,7 @@ public class BoardServiceTests {
 	private BoardService service;
 	
 	@Test
-	public void testExist() {
+	public void testExist(){ // BoardService °´Ã¼°¡ Á¦´ë·Î ÁÖÀÔÀÌ °¡´ÉÇÑÁö È®ÀÎÇÏ´Â ÀÛ¾÷
 		log.info(service);
 		assertNotNull(service);
 	}
@@ -36,42 +32,42 @@ public class BoardServiceTests {
 	@Test
 	public void testRegister() {
 		BoardVO board = new BoardVO();
-		board.setTitle("service ìƒˆë¡œ ìž‘ì„±í•˜ëŠ” ê¸€");
-		board.setContent("service ìƒˆë¡œ ìž‘ì„±í•˜ëŠ” ë‚´ìš©");
-		board.setWriter("service newbie");
+		board.setTitle("»õ·Î ÀÛ¼ºÇÏ´Â ±Û");
+		board.setContent("»õ·Î ÀÛ¼ºÇÏ´Â ³»¿ë");
+		board.setWriter("newbie");
 		
 		service.register(board);
-		log.info("ìƒì„±ëœ ê²Œì‹œë¬¼ì˜ ë²ˆí˜¸ : " + board.getBno());
+		
+		log.info("»ý¼ºµÈ °Ô½Ã¹°ÀÇ ¹øÈ£ : " + board.getBno());
 	}
 	
 	@Test
 	public void testGetList() {
-		log.info(service.getList());
-		service.getList().forEach(board -> log.info(board));
+//		service.getList().forEach(board -> log.info(board));
 		
-//		service.getList(new Criteria(2, 10)).forEach(board -> log.info(board));
+		service.getList(new Criteria(2,10)).forEach(board -> log.info(board));
 	}
 	
 	@Test
 	public void testGet() {
-		log.info(service.get(17L));
+		log.info(service.get(23L));
 	}
 	
 	@Test
 	public void testDelete() {
-		log.info("REMOVE RESULT : " + service.remove(9L));
+		log.info("REMOVE RESULT : " + service.remove(2L));
 	}
 	
 	@Test
-	public void testUpadte() {
+	public void testUpdate() {
+		BoardVO board = service.get(1L);
 		
-		BoardVO board = service.get(10L);
-		if( board == null ) {
-			fail();
-			return;	
+		if(board == null) {
+			return;
 		}
-		board.setTitle("10ë²ˆ service ì œëª© ìˆ˜ì •í•©ë‹ˆë‹¤");
+		
+		board.setTitle("Á¦¸ñ ¼öÁ¤ÇÕ´Ï´Ù.");
 		log.info("MODIFY RESULT : " + service.modify(board));
 	}
-
 }
+

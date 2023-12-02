@@ -23,6 +23,5 @@
 		p:dataSource-ref="dataSource" 
 		p:typeAliasesPackage="net.developia.spring03.domain"/>
 
-	<mybatis-spring:scan 
-		base-package="net.developia.spring03.mapper" />	
+	<mybatis-spring:scan base-package="net.developia.spring03.mapper"/>	
 </beans>

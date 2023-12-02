@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var jqxhr = $.get( "msg.txt", function(data) {
+			$('#output').html(data);
+		})
+		  .done(function() {
+		    alert( "second success" );
+		  })
+		  .fail(function() {
+		    alert( "error" );
+		  })
+		  .always(function() {
+		    alert( "finished" );
+		  });
+		 
+		// Perform other work here ...
+		 
+		// Set another completion function for the request above
+		jqxhr.always(function() {
+		  alert( "second finished" );
+		});
+});
+</script></head>
+<body>
+<div id="output"></div>
+</body>
+</html>

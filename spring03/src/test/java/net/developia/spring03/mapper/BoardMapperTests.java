@@ -1,7 +1,7 @@
 package net.developia.spring03.mapper;
 
 
-import static org.junit.Assert.fail;
+import java.util.List;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,6 +12,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 import lombok.extern.log4j.Log4j;
 import net.developia.spring03.domain.BoardVO;
+import net.developia.spring03.domain.Criteria;
 
 @WebAppConfiguration
 @RunWith(SpringRunner.class)
@@ -24,91 +25,67 @@ public class BoardMapperTests {
 	
 	@Test
 	public void testGetList() {
-		mapper
-			.getList()
-			.forEach(board -> {
-				log.info(board);
-			});
-		for(BoardVO boardVO:mapper.getList()) {
-			log.info(boardVO.getContent());
-		}
-	}
-	
-	
-	@Test
-	public void testRead() {
-		BoardVO board = mapper.read(5L);
-		log.info(board);
+		mapper.getList().forEach(board -> log.info(board));
 	}
 	
 	@Test
 	public void testInsert() {
-		
 		BoardVO board = new BoardVO();
-		board.setTitle("ê·¸ëŒ€ì—ê²Œ");
-		board.setContent("ìˆ¨ê°€ì˜ê²Œ ì‚´ì•„ê°€ëŠ” ìˆœê°„ ì†ì—ë„");
-		board.setWriter("ì‹ í•´ì² ì‹ í•´ì² ì‹ í•´ì² ì‹ í•´ì² ì‹ í•´ì² ì‹ ");
+		board.setTitle("»õ·Î ÀÛ¼ºÇÏ´Â ±Û");
+		board.setContent("»õ·Î ÀÛ¼ºÇÏ´Â ³»¿ë");
+		board.setWriter("newbie");
 		
 		mapper.insert(board);
-		
-		log.info(board);
 	}
 	
 	@Test
 	public void testInsertSelectKey() {
-		
 		BoardVO board = new BoardVO();
-		board.setTitle("ë‚œ ì•Œì•„ìš”2");
-		board.setContent("ì´ ë°¤ì´ íë¥´ê³  íë¥´ë©´2");
-		board.setWriter("ì„œíƒœì§€2");
+		board.setTitle("»õ·Î ÀÛ¼ºÇÏ´Â ±Û select key");
+		board.setContent("»õ·Î ÀÛ¼ºÇÏ´Â ³»¿ë select key ");
+		board.setWriter("newbie");
 		
 		mapper.insertSelectKey(board);
 		
 		log.info(board);
 	}
-
+	
+	@Test 
+	public void testRead() {
+		// Á¸ÀçÇÏ´Â °Ô½Ã¹° ¹øÈ£·Î Å×½ºÆ® 
+		BoardVO board = mapper.read(5L);
+		log.info(board);
+	}
+	
 	@Test
 	public void testDelete() {
-		int count = mapper.delete(3L);
-		log.info("DELETE COUNT : " + count);
-		if (count == 0) fail("ì¿¼ë¦¬ëŠ” ì •ìƒ ìˆ˜í–‰ë˜ì—ˆìœ¼ë‚˜ í•´ë‹¹í•˜ëŠ” ê²Œì‹œë¬¼ì´ ì—†ìŒ.");
+		log.info("DELETE COUNT : " + mapper.delete(3L));
 	}
 	
 	@Test
 	public void testUpdate() {
-		
 		BoardVO board = new BoardVO();
-		board.setBno(5L);
-		board.setTitle("ìˆ˜ì •ëœ ì œëª©ì…ë‹ˆë‹¤");
-		board.setContent("ìˆ˜ì •ëœ ë‚´ìš©ì…ë‹ˆë‹¤");
-		board.setWriter("ì •í˜„ì² ");
+		board.setBno(6L);
+		board.setTitle("¼öÁ¤µÈ Á¦¸ñ");
+		board.setContent("¼öÁ¤µÈ ³»¿ë");
+		board.setWriter("user00");
 		
 		int count = mapper.update(board);
-		log.info("UPDATE COUNT : " + count);
+		log.info("Update count : " + count);
 	}
 	
-	
-	/*	
-
-
-
 	@Test
 	public void testPaging() {
-		Criteria cri = new Criteria();
-		cri.setPageNum(1);
+		
+		Criteria cri = new Criteria();	
+		
+		// 10°³¾¿ 3ÆäÀÌÁö
+		cri.setPageNum(3);
 		cri.setAmount(10);
-		List<BoardVO> list = mapper.getListWithPaging(cri);
-		list.forEach(board -> log.info(board.getBno()));
-	}
-	
-	@Test
-	public void testSearch() {
-		Criteria cri = new Criteria();
-		cri.setKeyword("ìƒˆë¡œ");
-		cri.setType("W");
 		
 		List<BoardVO> list = mapper.getListWithPaging(cri);
+		
 		list.forEach(board -> log.info(board));
 	}
-	*/
 }
+

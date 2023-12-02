@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#btnSend').click(function(){
+		$.ajax({
+			  method: "POST",
+			  url: "login.jsp",
+			  data: { name: $('#name').val(), 
+				      pass: $('#pass').val() }
+		})
+		  .done(function( msg ) {
+			  $('#result').html(msg);
+		  });
+	});
+});
+</script>
+</head>
+<body>
+name : <input type="text"     name="name" id="name" /><br/>
+pass : <input type="password" name="pass" id="pass" /><br/>
+
+<input type="button" value="send" id="btnSend" />
+<div id="result"></div>
+</body>
+</html>

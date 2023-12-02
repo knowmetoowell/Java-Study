@@ -14,7 +14,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 import lombok.extern.log4j.Log4j;
 
-@WebAppConfiguration
+@WebAppConfiguration // ServletÀÇ ServletContext¸¦ ÀÌ¿ëÇÏ±â À§ÇØ¼­ÀÓ 
 @RunWith(SpringRunner.class)
 @ContextConfiguration("file:**/*-context.xml")
 @Log4j
@@ -26,69 +26,65 @@ public class BoardControllerTests {
 	private MockMvc mockMvc;
 	
 	@Before
-	public void setup() {
+	public void setUp() {
 		this.mockMvc = MockMvcBuilders.webAppContextSetup(ctx).build();
 	}
 	
+	
 	@Test
-	public void testList() throws Exception {
+	public void testList() throws Exception{
 		log.info(
-			mockMvc.perform(MockMvcRequestBuilders.get("/board/list"))
+			mockMvc.perform(MockMvcRequestBuilders.get("/board/list")
+					.param("pageNum", "2")
+					.param("amount", "50"))
 			.andReturn()
 			.getModelAndView()
 			.getModelMap());
 	}
 	
 	@Test
-	public void testListPaging() throws Exception {
-		log.info(mockMvc.perform(
-				MockMvcRequestBuilders.get("/board/list")
-				.param("pageNum", "1")
-				.param("amount",  "10"))
-				.andReturn().getModelAndView().getModelMap());
-	}
-	
-	@Test
-	public void testRegister() throws Exception {
+	public void testRegister() throws Exception{
 		String resultPage = mockMvc.perform(MockMvcRequestBuilders.post("/board/register")
-			.param("title", "í…ŒìŠ¤íŠ¸ ìƒˆê¸€ ì œëª©")
-			.param("content", "í…ŒìŠ¤íŠ¸ ìƒˆê¸€ ë‚´ìš©")
-			.param("writer", "user00")
-		).andReturn().getModelAndView().getViewName();
-		
-		log.info(resultPage);		
-	}
-	
-	@Test
-	public void testGet() throws Exception {
-		log.info(mockMvc.perform(MockMvcRequestBuilders
-			.get("/board/get")
-			.param("bno", "12"))
-			.andReturn()
-			.getModelAndView()
-			.getModelMap());
-	}
-	
-	@Test
-	public void testModify() throws Exception{
-		String resultPage = mockMvc
-			.perform(MockMvcRequestBuilders.post("/board/modify")
-			.param("bno", "13")
-			.param("title", "ìˆ˜ì •ëœ í…ŒìŠ¤íŠ¸ ìƒˆê¸€ ì œëª©")
-			.param("content", "ìˆ˜ì •ëœ í…ŒìŠ¤íŠ¸ ìƒˆê¸€ ë‚´ìš©")
-			.param("writer", "user00")).andReturn().getModelAndView().getViewName();
-		
-		log.info(resultPage);		
-	}
-	
-	@Test
-	public void testRemove() throws Exception {
-		
-		// ì‚­ì œì „ ë°ì´í„°ë² ì´ìŠ¤ì— ê²Œì‹œë¬¼ ë²ˆí˜¸ë¥¼ í™•ì¸í•  ê²ƒ
-		String resultPage = mockMvc.perform(MockMvcRequestBuilders.post("/board/remove")
-			.param("bno", "12")
-			).andReturn().getModelAndView().getViewName();
+					.param("title", "Å×½ºÆ® »õ±Û Á¦¸ñ")
+					.param("content", "Å×½ºÆ® »õ±Û ³»¿ë")
+					.param("writer", "user00")
+					).andReturn().getModelAndView().getViewName();
 		
 		log.info(resultPage);
 	}
+	
+	// Á¶È¸ °ü·Ã Å×½ºÆ® ÄÚµå 
+	@Test
+	public void testGet() throws Exception{
+		log.info(
+			mockMvc.perform(MockMvcRequestBuilders
+					.get("/board/get")
+					.param("bno","2"))
+					.andReturn()
+					.getModelAndView().getModelMap());
+	}
+	
+	// ¼öÁ¤ 
+	@Test
+	public void testModify() throws Exception{
+		String resultPage = mockMvc.perform(MockMvcRequestBuilders.post("/board/modify")
+					.param("bno", "30")
+					.param("title", "¼öÁ¤µÈ Å×½ºÆ® »õ±Û Á¦¸ñ")
+					.param("content", "¼öÁ¤µÈ Å×½ºÆ® »õ±Û ³»¿ë")
+					.param("writer", "user00")
+					).andReturn().getModelAndView().getViewName();
+		
+		log.info(resultPage);
+	}
+	
+	// »èÁ¦
+	@Test
+	public void testRemove() throws Exception{
+		String resultPage = mockMvc.perform(MockMvcRequestBuilders.post("/board/remove")
+					.param("bno", "25")
+					).andReturn().getModelAndView().getViewName();
+		
+		log.info(resultPage);
+	}
+	
 }

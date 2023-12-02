@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$.getJSON( "/ajax/jsontest", function( data ) {
+		  var items = [];
+		  $.each( data, function( key, val ) {
+		    items.push(key + ":" + val + "<br/>");
+		  });
+		 
+		  $("body").append(items);
+		});
+});
+</script>
+</head>
+<body>
+</body>
+</html>
