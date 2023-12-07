@@ -16,8 +16,8 @@ public class Criteria {
 		this(1,10);
 	}
 	
-	public Criteria(int pageNum, int amout) {
+	public Criteria(int pageNum, int amount) {
 		this.pageNum = pageNum;
-		this.amount = amout;
+		this.amount = amount;
 	}
 }

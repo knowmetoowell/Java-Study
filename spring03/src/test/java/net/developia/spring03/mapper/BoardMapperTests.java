@@ -31,8 +31,8 @@ public class BoardMapperTests {
 	@Test
 	public void testInsert() {
 		BoardVO board = new BoardVO();
-		board.setTitle("»õ·Î ÀÛ¼ºÇÏ´Â ±Û");
-		board.setContent("»õ·Î ÀÛ¼ºÇÏ´Â ³»¿ë");
+		board.setTitle("ìƒˆë¡œ ì‘ì„±í•˜ëŠ” ê¸€");
+		board.setContent("ìƒˆë¡œ ì‘ì„±í•˜ëŠ” ë‚´ìš©");
 		board.setWriter("newbie");
 		
 		mapper.insert(board);
@@ -41,8 +41,8 @@ public class BoardMapperTests {
 	@Test
 	public void testInsertSelectKey() {
 		BoardVO board = new BoardVO();
-		board.setTitle("»õ·Î ÀÛ¼ºÇÏ´Â ±Û select key");
-		board.setContent("»õ·Î ÀÛ¼ºÇÏ´Â ³»¿ë select key ");
+		board.setTitle("ìƒˆë¡œ ì‘ì„±í•˜ëŠ” ê¸€ select key");
+		board.setContent("ìƒˆë¡œ ì‘ì„±í•˜ëŠ” ë‚´ìš© select key ");
 		board.setWriter("newbie");
 		
 		mapper.insertSelectKey(board);
@@ -52,7 +52,7 @@ public class BoardMapperTests {
 	
 	@Test 
 	public void testRead() {
-		// Á¸ÀçÇÏ´Â °Ô½Ã¹° ¹øÈ£·Î Å×½ºÆ® 
+		// ì¡´ì¬í•˜ëŠ” ê²Œì‹œë¬¼ ë²ˆí˜¸ë¡œ í…ŒìŠ¤íŠ¸ 
 		BoardVO board = mapper.read(5L);
 		log.info(board);
 	}
@@ -66,8 +66,8 @@ public class BoardMapperTests {
 	public void testUpdate() {
 		BoardVO board = new BoardVO();
 		board.setBno(6L);
-		board.setTitle("¼öÁ¤µÈ Á¦¸ñ");
-		board.setContent("¼öÁ¤µÈ ³»¿ë");
+		board.setTitle("ìˆ˜ì •ëœ ì œëª©");
+		board.setContent("ìˆ˜ì •ëœ ë‚´ìš©");
 		board.setWriter("user00");
 		
 		int count = mapper.update(board);
@@ -79,7 +79,7 @@ public class BoardMapperTests {
 		
 		Criteria cri = new Criteria();	
 		
-		// 10°³¾¿ 3ÆäÀÌÁö
+		// 10ê°œì”© 3í˜ì´ì§€
 		cri.setPageNum(3);
 		cri.setAmount(10);
 		

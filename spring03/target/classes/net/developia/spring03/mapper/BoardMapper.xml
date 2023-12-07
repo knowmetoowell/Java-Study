@@ -20,8 +20,8 @@
 	 				rownum rn, bno, title, content, writer, updatedate
 	 			from 
 	 				tbl_board
-	 			where rownum <= #{pageNum} * #{amout})
-	 	where rn > (#{pageNum} -1) * #{amout}
+	 			where rownum <= #{pageNum} * #{amount})
+	 	where rn > (#{pageNum} -1) * #{amount}
 	 ]]>
 	</select>
 

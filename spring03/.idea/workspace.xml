@@ -10,43 +10,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a592200-59cc-43f6-bae5-09a0e4c02878" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring02/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/developia/spring03/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/developia/spring03/controller/BoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/developia/spring03/domain/Criteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/developia/spring03/domain/Criteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/developia/spring03/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/developia/spring03/mapper/BoardMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/developia/spring03/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/developia/spring03/service/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/developia/spring03/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/developia/spring03/service/BoardServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/net/developia/spring03/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/net/developia/spring03/mapper/BoardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/html/js01.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/html/js01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/html/js02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/html/msg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/html/msg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/net/developia/spring03/controller/BoardControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/developia/spring03/controller/BoardControllerTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/net/developia/spring03/mapper/BoardMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/developia/spring03/mapper/BoardMapperTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/net/developia/spring03/service/BoardServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/developia/spring03/service/BoardServiceTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/net/developia/spring03/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/developia/spring03/mapper/BoardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/net.developia/spring03/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/net.developia/spring03/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/net.developia/spring03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/net.developia/spring03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/net/developia/spring03/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/net/developia/spring03/mapper/BoardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/resources/html/js01.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/resources/html/js01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/resources/html/js02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/resources/html/msg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/resources/html/msg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring03-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/board/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring04/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring04/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring04/src/main/java/net/developia/spring04/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring04/src/main/java/net/developia/spring04/controller/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring04/target/spring04-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../spring04/target/spring04-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -58,9 +55,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2Yvp9bSYUxQXNHdpUpmfsHpOMrw" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -68,32 +65,51 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/dev/edu/edu/spring04",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/edu/spring03/src/main/java/net/developia/spring03/controller&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\edu\spring03\src\main\java\net\developia\spring03\controller" />
+      <recent name="C:\dev\edu\spring03\src\main\java\net\developia\spring03\service" />
+      <recent name="C:\dev\edu\spring03\src\main\resources\net\developia\spring03\mapper" />
       <recent name="C:\dev\edu\edu\spring03\src\main\java\net\developia\spring03\domain" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.developia.spring03.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.developia.spring03.controller" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.83">
-    <configuration name="BoardMapperTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.tomcat-9">
+    <configuration name="ReplyMapperTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring03" />
       <extension name="coverage">
         <pattern>
@@ -102,29 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
-      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.BoardMapperTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardMapperTests.testGetList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.developia.spring03.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
-      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.BoardMapperTests" />
-      <option name="METHOD_NAME" value="testGetList" />
+      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.ReplyMapperTests" />
+      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardMapperTests.testPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReplyMapperTests.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring03" />
       <extension name="coverage">
         <pattern>
@@ -133,14 +134,62 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
-      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.BoardMapperTests" />
-      <option name="METHOD_NAME" value="testPaging" />
+      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.ReplyMapperTests" />
+      <option name="METHOD_NAME" value="testList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.83" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.83" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="ReplyMapperTests.testMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.developia.spring03.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
+      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.ReplyMapperTests" />
+      <option name="METHOD_NAME" value="testMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReplyMapperTests.testRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.developia.spring03.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
+      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.ReplyMapperTests" />
+      <option name="METHOD_NAME" value="testRead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReplyMapperTests.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.developia.spring03.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.developia.spring03.mapper" />
+      <option name="MAIN_CLASS_NAME" value="net.developia.spring03.mapper.ReplyMapperTests" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat-9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="tomcat-9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="spring03:war exploded">
@@ -228,16 +277,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BoardMapperTests" />
-      <item itemvalue="JUnit.BoardMapperTests.testGetList" />
-      <item itemvalue="JUnit.BoardMapperTests.testPaging" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.83" />
+      <item itemvalue="JUnit.ReplyMapperTests.testDelete" />
+      <item itemvalue="JUnit.ReplyMapperTests.testList" />
+      <item itemvalue="JUnit.ReplyMapperTests.testMapper" />
+      <item itemvalue="JUnit.ReplyMapperTests.testRead" />
+      <item itemvalue="JUnit.ReplyMapperTests.testUpdate" />
+      <item itemvalue="Tomcat Server.tomcat-9" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BoardMapperTests.testPaging" />
-        <item itemvalue="JUnit.BoardMapperTests.testGetList" />
-        <item itemvalue="JUnit.BoardMapperTests" />
+        <item itemvalue="JUnit.ReplyMapperTests.testList" />
+        <item itemvalue="JUnit.ReplyMapperTests.testMapper" />
+        <item itemvalue="JUnit.ReplyMapperTests.testDelete" />
+        <item itemvalue="JUnit.ReplyMapperTests.testUpdate" />
+        <item itemvalue="JUnit.ReplyMapperTests.testRead" />
       </list>
     </recent_temporary>
   </component>
@@ -250,10 +303,30 @@
       <option name="presentableId" value="Default" />
       <updated>1701415756752</updated>
       <workItem from="1701415757783" duration="3229000" />
+      <workItem from="1701497463897" duration="8725000" />
+      <workItem from="1701581621282" duration="2475000" />
+      <workItem from="1701648621743" duration="593000" />
+      <workItem from="1701657716100" duration="14375000" />
+      <workItem from="1701689570563" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/net/developia/spring03/mapper/ReplyMapperTests.java</url>
+          <line>35</line>
+          <properties class="net.developia.spring03.mapper.ReplyMapperTests" method="testCreate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

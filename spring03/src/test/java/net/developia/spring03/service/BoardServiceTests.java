@@ -24,7 +24,7 @@ public class BoardServiceTests {
 	private BoardService service;
 	
 	@Test
-	public void testExist(){ // BoardService °´Ã¼°¡ Á¦´ë·Î ÁÖÀÔÀÌ °¡´ÉÇÑÁö È®ÀÎÇÏ´Â ÀÛ¾÷
+	public void testExist(){ // BoardService ê°ì²´ê°€ ì œëŒ€ë¡œ ì£¼ì…ì´ ê°€ëŠ¥í•œì§€ í™•ì¸í•˜ëŠ” ì‘ì—…
 		log.info(service);
 		assertNotNull(service);
 	}
@@ -32,13 +32,13 @@ public class BoardServiceTests {
 	@Test
 	public void testRegister() {
 		BoardVO board = new BoardVO();
-		board.setTitle("»õ·Î ÀÛ¼ºÇÏ´Â ±Û");
-		board.setContent("»õ·Î ÀÛ¼ºÇÏ´Â ³»¿ë");
+		board.setTitle("ìƒˆë¡œ ì‘ì„±í•˜ëŠ” ê¸€");
+		board.setContent("ìƒˆë¡œ ì‘ì„±í•˜ëŠ” ë‚´ìš©");
 		board.setWriter("newbie");
 		
 		service.register(board);
 		
-		log.info("»ı¼ºµÈ °Ô½Ã¹°ÀÇ ¹øÈ£ : " + board.getBno());
+		log.info("ìƒì„±ëœ ê²Œì‹œë¬¼ì˜ ë²ˆí˜¸ : " + board.getBno());
 	}
 	
 	@Test
@@ -66,7 +66,7 @@ public class BoardServiceTests {
 			return;
 		}
 		
-		board.setTitle("Á¦¸ñ ¼öÁ¤ÇÕ´Ï´Ù.");
+		board.setTitle("ì œëª© ìˆ˜ì •í•©ë‹ˆë‹¤.");
 		log.info("MODIFY RESULT : " + service.modify(board));
 	}
 }
